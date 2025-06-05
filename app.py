@@ -5,7 +5,7 @@ print("Imported from:", tools.normal_distribution.__file__)
 
 st.set_page_config(page_title="Steel Analysis Toolbox", layout="wide")
 
-st.title("Ambridgel Statistical Tools")
+st.title("Ambridge Statistical Tools")
 
 tool = st.sidebar.selectbox("Choose a Tool", (
     "Normal Distribution Viewer",
