@@ -3,7 +3,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 
 def run():
-    st.subheader("🔥 Heat Element Comparison Dashboard")
+    st.subheader(" Heat Element Comparison Dashboard")
 
     uploaded_file = st.file_uploader("Upload Excel or CSV file", type=["xlsx", "csv"])
     if uploaded_file:
